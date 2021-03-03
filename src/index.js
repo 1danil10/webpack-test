@@ -1,3 +1,8 @@
-console.log(1);
+let arr = [1, 2, 3, 4, 5];
 
-console.log(2);
+let obj = {
+  [a]: [...arr],
+};
+
+console.log(arr);
+console.log(obj);

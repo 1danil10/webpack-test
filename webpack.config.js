@@ -1,8 +1,5 @@
 let mode = "development";
 
-if (process.env.NODE_DEV === "production") {
-  mode = "production";
-}
 module.exports = {
   mode: mode,
 
