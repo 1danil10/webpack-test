@@ -1,0 +1,16 @@
+@use "variables";
+body {
+  background-color: variables.$bg;
+  font-size: 30px;
+  color: var(--text);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+  color: blue;
+  justify-content: center;
+}
